@@ -1,0 +1,10 @@
+
+> chatbot@0.1.0 start
+> PORT=5001 react-app-rewired start
+
+Cannot find module 'crypto.browserify'
+Require stack:
+- /Users/tiffany/Software Engineering /reactbot/chatbot/config-overrides.js
+- /Users/tiffany/Software Engineering /reactbot/chatbot/node_modules/react-app-rewired/config-overrides.js
+- /Users/tiffany/Software Engineering /reactbot/chatbot/node_modules/react-app-rewired/overrides/paths.js
+- /Users/tiffany/Software Engineering /reactbot/chatbot/node_modules/react-app-rewired/scripts/start.js
