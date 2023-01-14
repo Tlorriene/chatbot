@@ -11,7 +11,7 @@ this.state = {
         }
 }
 UNSAFE_componentWillMount() {
-        this._sendMessage("Hey there !");
+        this._sendMessage("Hey there, I'm Ally, the Fin.Ally chatbot, what's your name?");
     }
 componentDidMount() {
         this.state.socket.connect(true);
