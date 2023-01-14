@@ -10,5 +10,13 @@ module.exports = function override(config, env) {
         https: require.resolve('https-browserify'),
         os: require.resolve('os-browserify/browser'),
         buffer: require.resolve('stream-browserify'),
-    }
+    };
+
+    config.plugin.push(
+        new webpack.ProvidePlugin({
+            process: 'process/browser',
+            Buffer: ['buffer', 'Buffer'],
+        }),
+    );
+return config;
 }
