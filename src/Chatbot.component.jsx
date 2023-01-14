@@ -28,7 +28,7 @@ async _onMessageWasSent(message) {
         await this.setState({
             messageList: [...this.state.messageList, message]
         })
-this._sendMessage("••••");
+this._sendMessage("How can I help you?");
         await this.state.socket.emit('new-msg', { msg: message.data.text, room: this.state.room })
 }
 _sendMessage(text) {
